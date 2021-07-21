@@ -1,0 +1,18 @@
+<div class="mt-4">
+  <form action="/login" method="POST">
+    <div class="mb-3">
+      <label for="InputEmail" class="form-label">Email: </label>
+      <input type="email" name="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" required>
+    </div>
+    <div class="mb-3">
+      <label for="InputPassword1" class="form-label">Password: </label>
+      <input type="password" name="password" class="form-control" id="InputPassword1" required>
+    </div>
+    {{#if error}}
+      <div class="alert alert-danger" role="alert">
+        {{error}}
+      </div>
+    {{/if}}
+    <button type="submit" class="btn btn-primary">Đăng nhập</button>
+  </form>
+</div>

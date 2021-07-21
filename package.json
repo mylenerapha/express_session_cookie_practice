@@ -1,0 +1,29 @@
+{
+  "name": "express_session_cookie_practice",
+  "version": "1.0.0",
+  "description": "session and cookie practice",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonicname/express_session_cookie_practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonicname/express_session_cookie_practice/issues"
+  },
+  "homepage": "https://github.com/sonicname/express_session_cookie_practice#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-mongodb-session": "^3.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "express-session": "^1.17.2",
+    "mongoose": "^5.13.3"
+  }
+}
